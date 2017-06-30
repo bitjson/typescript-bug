@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", // required for "paths"
+    "paths": {
+      "speed-doubler": ["src/index.ts"] // write tests without relative paths
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": false
+}

@@ -1,0 +1,13 @@
+{
+  "name": "typescript-bug",
+  "version": "0.0.1",
+  "author": "Jason Dreyzehner <github@bitjson.com>",
+  "license": "MIT",
+  "scripts": {
+    "correct": "tsc -p tsconfig.json",
+    "bug": "tsc -p config/tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
